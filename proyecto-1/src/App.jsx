@@ -2,7 +2,6 @@ import './style.css'
 import { useFacts } from './hooks/useFacts'
 import { useEffect, useState } from 'react'
 
-
 export const App = () => {
   const { api, count, handleAdd } = useFacts()
   const [name, setName] = useState('')

@@ -25,5 +25,3 @@ export const useFacts = () => {
   }, [count])
   return { api, count, handleAdd }
 }
-
-
